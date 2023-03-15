@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<script type="text/javascript">
+  function fn1() {
+    var para = document.getElementsByTagName("p");
+    para[0].style.fontFamily = "BigInt";
+    para[1].style.color = "Tomato";
+
+  }
+  function fn2() {
+
+   var img= document.getElementById("img")
+   
+  }
+  function fn3() {
+    document.getElementById("img").src = "images.jfif"
+  }
+  function fn4() {
+    var para = document.getElementsByTagName("p");
+    para[1].style.color = "white";
+
+  }
+  images=document.querySelector('.img')
+  images.
+
+
+
+</script>
+
+<body>
+  <nav class="navbar background">
+    <ul class="navlist">
+      <div class="logo">
+        <img src="image 2.jpg" alt="logo" width="50%">
+      </div>
+      <li>
+        <a href="#home">Home</a>
+      </li>
+      <li>
+        <a href="#about">About</a>
+      </li>
+      <li>
+        <a href="#contact">Contact</a>
+      </li>
+
+    </ul>
+
+
+  </nav>
+  
+  <section class=" firstSection background1">
+    <div class="boxmain">
+      <div class="fhalf ">
+        <p class="p1">Html
+        </p><br>
+        <p class="p2">HTML tutorial or HTML 5 tutorial provides basic and advanced concepts of HTML. Our HTML tutorial
+          is developed for beginners and professionals. In our tutorial, every topic is given step-by-step so that you
+          can learn it in a very easy way. If you are new in learning HTML, then you can learn HTML from basic to a
+          professional level and after learning HTML with CSS and JavaScript you will be able to create your own
+          interactive and dynamic website. But Now We will focus on HTML only in this tutorial. </p><br>
+        <div class="buttons">
+          <button class="btn" onclick="fn1()">Subscribe</button>
+          <button class="btn" onclick="fn4()">Watch Video</button>
+        </div>
+      </div>
+      <div class="shalf">
+        <img id="img" onmouseover="fn2()" onmouseout="fn3()" src="images.jfif" alt="image">
+      </div>
+    </div>
+  </section>
+  
+
+  <section class=" secondSection background2">
+    <div class="boxmain1">
+      <div class="fhalf1 ">
+        <p class="p1">Css
+        </p><br>
+        <p class="p2"> CSS tutorial or CSS 3 tutorial provides basic and advanced concepts of CSS technology. Our CSS
+          tutorial is developed for beginners and professionals. The major points of CSS are given below:</p><br>
+
+      </div>
+      <div class="shalf1">
+        <img id="image" src="images.jfif" alt="image">
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+</body>
+
+</html>
